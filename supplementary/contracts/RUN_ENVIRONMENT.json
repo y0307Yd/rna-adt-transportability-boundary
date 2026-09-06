@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-31",
+  "python": "C:/Users/Y/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "seed": 20260819,
+  "primary_model": "Ridge(alpha=10.0, solver=lsqr, fit_intercept=true)",
+  "rna_normalization": "library size 10000 then log1p",
+  "feature_selection": "source-only top 1000 variable eligible genes plus locked fixed genes",
+  "adt_normalization": "precomputed cohort CLR",
+  "script": "run_cross_cohort_ridge_v5_external.py",
+  "formal_output_root": "D:/ai_multimodal_cholesterol_study_outputs/v5_external_transport/validated",
+  "audit_output_root": "D:/ai_multimodal_cholesterol_study_outputs/v5_external_transport/initial_unfiltered_audit"
+}

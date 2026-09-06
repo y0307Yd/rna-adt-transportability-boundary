@@ -1,0 +1,7 @@
+cohort,n_targets,pooled_spearman,permutation_p,passes_permutation
+GSE309625 CRLM,11,0.764,0.0096,True
+GSE305118 AML,11,0.445,0.1745,False
+GSE316782 NSCLC,11,0.091,0.8022,False
+GSE335494 Melanoma,11,0.079,0.8341,False
+GSE317605 Biliary,11,0.017,0.9824,False
+GSE334503 External,11,-0.336,0.3064,False

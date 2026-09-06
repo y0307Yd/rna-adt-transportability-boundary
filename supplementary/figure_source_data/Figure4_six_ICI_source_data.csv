@@ -1,0 +1,7 @@
+cohort,cancer,n_evaluable,auroc,permutation_p,interpretation
+GSE78220,Melanoma,27,0.483,0.552,NS
+GSE91061,Melanoma,49,0.631,0.109,NS
+GSE93157,Melanoma,65,0.592,0.122,NS
+IMvigor210,Bladder,298,0.542,0.147,NS
+Gide 2019,Melanoma,73,0.771,0.0002,Proxy
+Braun 2020,RCC,172,0.516,0.383,NS

@@ -1,0 +1,7 @@
+cohort,cancer,n_evaluable,auroc,perm_p
+GSE78220,Melanoma (anti-PD-1),27,0.483,0.552
+GSE91061,Melanoma (anti-PD-1),49,0.631,0.109
+GSE93157,Multi-cancer (anti-PD-1),65,0.592,0.122
+IMvigor210,Bladder (anti-PD-L1),298,0.542,0.147
+Gide 2019,Melanoma (anti-PD-1+/-CTLA-4),73,0.771,0.0002
+Braun 2020,Kidney RCC (anti-PD-1),172,0.516,0.383
