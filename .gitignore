@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large raw data (download from GEO instead)
+*.h5
+*.h5ad
+*.mtx
+*.mtx.gz
+*.npz
