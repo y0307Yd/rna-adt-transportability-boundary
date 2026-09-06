@@ -10,7 +10,7 @@ CD14,,,,,,,,,,,high,,CONDITIONAL_context,False
 CD141,,GGATAACCGCGCTTT,THBD,direct,primary,weak_or_nontransportable,rank_invariant_but_uncalibrated,0.2973455900055824,0.3572666620580364,-8.828924179077148,low,0.237,FAIL_measurement,True
 CD154,,GCTAGATAGATGCAA,CD40LG,direct,primary,weak_or_nontransportable,non_specific_or_non_transportable,-0.0300256231887323,-0.0164518233714907,-0.2755826711654663,,,FAIL_universal,False
 CD155,,ATCACATCGTTGCCA,PVR,direct,primary,weak_or_nontransportable,non_specific_or_non_transportable,0.0053953463961383,0.0011100084881603,-0.3008066415786743,,,FAIL_universal,False
-CD16,,AAGTTCACTCTTTGC,FCGR3A;FCGR3B,ambiguous_paralogs,prespecified_sensitivity,numerically_transportable_both_sources,rank_invariant_but_uncalibrated,0.4200700371893627,0.560976758662467,0.1317325234413147,moderate,0.426,CONDITIONAL_numeric_transport,False
+CD16,,AAGTTCACTCTTTGC,FCGR3A;FCGR3B,ambiguous_paralogs,prespecified_sensitivity,rank_invariant_both_sources,rank_invariant_but_uncalibrated,0.4200700371893627,0.560976758662467,0.1317325234413147,moderate,0.426,CONDITIONAL_rank_invariant,False
 CD161,,GTACGCAGTCCTTCT,KLRB1,direct,primary,rank_invariant_both_sources,rank_invariant_but_uncalibrated,0.3243977507780136,0.2308753307510452,-1.918778419494629,low,0.155,FAIL_measurement,True
 CD183,,GCGATGGTAGATTAT,CXCR3,direct,primary,weak_or_nontransportable,rank_invariant_but_uncalibrated,0.7765618994919962,0.6569292219545728,-45.87972640991211,low,0.034,FAIL_measurement,True
 CD185,,AATTCAACCGTCGCC,CXCR5,direct,primary,rank_invariant_both_sources,rank_invariant_but_uncalibrated,0.7361229681259087,0.823169544109716,-89.2965087890625,high,0.614,CONDITIONAL_rank_invariant,False
@@ -30,9 +30,9 @@ CD27,,GCACTCCTGCATGTA,CD27,direct,primary,rank_invariant_both_sources,rank_invar
 CD274,,GTTGTCCGACAATAC,CD274,direct,primary,weak_or_nontransportable,rank_invariant_but_uncalibrated,0.7097902960705798,0.6966143709194791,-0.2101939916610717,low,0.056,FAIL_measurement,True
 CD279,PD-1,ACAGCGCCGTATTTA,PDCD1,direct,primary,weak_or_nontransportable,non_specific_or_non_transportable,0.0751020300676893,0.040967894494511,-2.397166967391968,moderate,0.486,CONDITIONAL_unstable,False
 CD28,,TGAGAACGACCCTAA,CD28,direct,primary,rank_invariant_both_sources,rank_invariant_but_uncalibrated,0.78624151157493,0.867310112818453,-43.60860443115234,high,0.817,CONDITIONAL_rank_invariant,False
-CD3,,CTCATTGTAACTCCT,CD3E;CD3D;CD3G,receptor_complex_proxy,prespecified_sensitivity,numerically_transportable_both_sources,rank_invariant_but_uncalibrated,0.6488524381937282,0.4323439906614748,0.1565368771553039,high,0.727,CONDITIONAL_numeric_transport,False
+CD3,,CTCATTGTAACTCCT,CD3E;CD3D;CD3G,receptor_complex_proxy,prespecified_sensitivity,rank_invariant_both_sources,rank_invariant_but_uncalibrated,0.6488524381937282,0.4323439906614748,0.1565368771553039,high,0.727,CONDITIONAL_rank_invariant,False
 CD303,,GAGATGTCCGAATTT,CLEC4C,direct,primary,weak_or_nontransportable,non_specific_or_non_transportable,0.0511433967585098,0.0615822429031115,-0.5185296535491943,moderate,0.499,FAIL_universal,False
-CD314,,CGTGTTTGTTCCTCA,KLRK1,direct,primary,numerically_transportable_both_sources,numerically_transportable,0.2785192694978589,0.3594655497726875,0.0493812561035156,low,0.158,NUMERIC_BUT_MEASUREMENT_RISK,True
+CD314,,CGTGTTTGTTCCTCA,KLRK1,direct,primary,rank_invariant_both_sources,rank_invariant_but_uncalibrated,0.2785192694978589,0.3594655497726875,0.0493812561035156,low,0.158,FAIL_measurement,True
 CD319,,AGTATGCCATGTCTT,SLAMF7,direct,primary,weak_or_nontransportable,rank_invariant_but_uncalibrated,0.6674353172419256,0.5653957535601627,-22.24916648864746,,,FAIL_universal,False
 CD32,,,,,,,,,,,high,,INSUFFICIENT_transport_evidence,False
 CD33,,TAACTCAGGGCCTAT,CD33,direct,primary,rank_invariant_both_sources,rank_invariant_but_uncalibrated,0.8767384781863563,1.34202550589812,-138.7083282470703,moderate,0.472,CONDITIONAL_rank_invariant,False
