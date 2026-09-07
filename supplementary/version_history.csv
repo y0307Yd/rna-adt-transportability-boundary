@@ -5,3 +5,4 @@ LOPO external validation contract,P1_EXTERNAL_VALIDATION_CONTRACT_20260902.md,20
 Four-gene clinical score definition,build_gse78220_score_table.py,2026-09-01T18:12,IMvigor210 validation,2026-09-04T12:58,true,score defined before three largest cohorts
 43-target locked panel,P3_SHARED43_LOCKED_PANEL.csv,2026-09-02T22:10,P3_EXPANDED43_TRANSPORT_METRICS.csv,2026-09-02T22:17,true,7-minute gap (near-simultaneous)
 43-target classification thresholds,threshold_sensitivity_v5.py,2026-09-04T17:13,(sensitivity post-hoc),2026-09-04T17:13,false,retrospective sensitivity only
+Source-internal strict-gate positive control,run_source_lodo_positive_control.py,2026-09-07T23:00,B3_source_lodo_target_metrics.csv,2026-09-07T23:19,false,post-hoc reviewer-requested gate-satisfiability audit

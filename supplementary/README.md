@@ -1,4 +1,4 @@
-# Supplementary Evidence Package — v1 (2026-09-06)
+# Supplementary Evidence Package - v2 (2026-09-07)
 
 Machine-readable tables backing every quantitative claim in the manuscript.
 Each letter maps to the "Supplementary materials comprise (A)–(G)" sentence in the
@@ -11,6 +11,11 @@ Data and code availability section.
 | A | `A_target_direction_cohort_master_audit.csv` | 51-target master boundary: transport class, measurement flag, mapping class, Kotliarov ICC, effective boundary tier | 3.2 / 3.4 |
 | A2 | `A2_43target_bidirectional_evidence_matrix.csv` | 43-target bidirectional (forward/reverse) evidence: observed vs shuffled median, delta, bootstrap CI, sign-flip P, BH q, classification | 2.7 / 3.2 |
 | B | `B_fold_level_model_table.csv` | LOPO fold-level metadata: held-out target, training targets, selected features, scaler mean/scale, ridge alpha/solver, observed vs predicted, per-fold SHA-256 | 2.7 (LODO/LOPO) |
+| B3 | `B3_source_lodo_target_metrics.csv` | Source-internal pooled donor-LODO positive control: continuous metrics and strict/exploratory gate results for 22 target-cohort settings | 2.6 / 3.1 |
+| B3 donor | `B3_source_lodo_donor_target_metrics.csv` | Metrics for all 121 held-out donor-target folds | 2.6 / 3.1 |
+| B3 mapping | `B3_null_b_noncognate_mapping.csv` | Fixed seeded noncognate ADT mapping used for specificity gain | 2.6 |
+| B3 audit | `B3_legacy_fold_consistency_audit.csv` | Row-level comparison with legacy donor-fold Spearman results | 2.6 |
+| B3 manifest | `B3_input_manifest_sha256.csv` | Source inputs, sizes and SHA-256 hashes | 2.6 |
 | C0 | `C0_spatial_patient_section_statistics.csv` | Spatial section-level audit: patient, section (GSM), timepoint, target, target class, n spots, partial Spearman, block partial rho, block permutation P, n blocks | 3.6 (spatial) |
 | C1 | `C1_spatial_sign_flip_bh_qvalues.csv` | Spatial sign-flip tests: analysis, target, timepoint, median, raw P, grade, BH q, passes-q05 | 3.6 (spatial) |
 | C2 | `C2_spatial_block_rho_bootstrap_ci.csv` | Spatial block bootstrap CI: target, timepoint, n sections, observed median, CI lo/hi | 3.6 (spatial) |
@@ -29,6 +34,15 @@ Data and code availability section.
 - `figure_source_data/` — per-figure source data (CSV) backing Figures 1–5, 10, 13, S2 and the six-cohort clinical figure.
 - `contracts/` — the P1 LOPO external validation contract (local timestamped rule file) and the RUN_ENVIRONMENT.json snapshot.
 - `environment.yml` (repo root) — pinned dependency versions used to produce the results.
+
+## B3 reconstruction boundary
+
+The legacy donor-LODO arrays store predictions on each training fold's standardized
+ADT scale. `scripts/external_lopo/run_source_lodo_positive_control.py` returns every
+held-out donor prediction to CLR units using the mean and standard deviation from the
+training donors only before calculating R2, calibration slope and SD ratio. The exact
+fixed noncognate mapping and all source hashes are retained. B3 tests whether the strict
+gate is satisfiable within source cohorts; it is not evidence of cross-cohort transfer.
 
 ## Key analysis parameters (extracted from source scripts)
 

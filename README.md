@@ -5,7 +5,7 @@
 This repository contains the analysis code and machine-readable evidence tables that
 back the quantitative claims in the manuscript
 *"Cross-cohort transportability of RNA-to-protein prediction is target- and context-specific"*
-(current manuscript: `RNA_ADT_Transportability_v3_FINAL_20260906_v6_evidence_pkg.docx`).
+(current manuscript: `manuscript_final_v8i_submission_ready.docx`).
 
 ## What this study is about
 
@@ -29,15 +29,20 @@ necessarily a model that measures protein across cohorts.** Transportability is 
 empirical property of the *target–context–measurement system*, not merely an algorithm
 property.
 
-## Three killer results
+## Three principal results
 
-- **Within-donor ≠ cross-cohort transport.** A model that is numerically accurate
-  within a donor can fail across donors/cohorts (e.g., CD4 counterexample).
-- **High rank correlation ≠ numerical interchangeability.** Of 43 evaluated targets,
-  only 3 met numerical criteria; 17 were rank-only; 23 were weak/non-transportable.
-- **Technical repeatability does not guarantee transportability.** 9 universally
-  failing targets still showed high measurement repeatability (ICC 0.428–0.804),
-  ruling out "the measurement itself is just noisy" as the explanation.
+- **Within-source donor generalization is not cross-cohort transport.** The strict
+  five-component gate was attainable in 4/22 source-internal donor-held-out
+  target-cohort settings, with 0/22 shuffled controls passing, but no target passed
+  the same strict numerical gate in the principal expanded external transfer.
+- **High rank correlation is not numerical interchangeability.** In the principal
+  43-target external analysis, 29 targets retained rank information without adequate
+  numerical calibration, 3 were weakly context-dependent and 11 were non-specific or
+  non-transportable under the strict gate.
+- **Technical repeatability does not guarantee transportability.** Of eight targets
+  classified as failures across all evaluated transport settings with available
+  orthogonal ICC values, four had ICC >= 0.50. Those four failures cannot be dismissed
+  as low repeatability alone; twelve separate targets failed at the measurement layer.
 
 ## Repository structure
 
@@ -47,7 +52,7 @@ rna-adt-transportability-boundary/
 ├── LICENSE                      # MIT
 ├── requirements.txt             # Python dependencies
 ├── .gitignore
-├── supplementary/               # 13 machine-readable evidence tables (A–H) + index README
+├── supplementary/               # Machine-readable evidence tables (A–H, including B3) + index README
 └── scripts/                     # Core reproducible analysis scripts
     ├── target_scope/            # 43/51-target transport, direction-dependence, LOPO fold metadata
     ├── celltype/                # Cell-type-adjusted transport (Figure 13)
@@ -60,7 +65,7 @@ rna-adt-transportability-boundary/
 
 ## Supplementary evidence package
 
-The `supplementary/` directory contains 13 machine-readable tables, each mapped to a
+The `supplementary/` directory contains machine-readable tables, each mapped to a
 manuscript section (see `supplementary/README.md` for the full index). These are the
 tables referenced by the *"Supplementary materials comprise (A)–(G)"* sentence in the
 Data and code availability section:
@@ -70,6 +75,11 @@ Data and code availability section:
 | A | `A_target_direction_cohort_master_audit.csv` | 3.2 / 3.4 |
 | A2 | `A2_43target_bidirectional_evidence_matrix.csv` | 2.7 / 3.2 |
 | B | `B_fold_level_model_table.csv` | 2.7 (LODO/LOPO) |
+| B3 | `B3_source_lodo_target_metrics.csv` | 2.6 / 3.1 (source-internal strict-gate positive control) |
+| B3 donor | `B3_source_lodo_donor_target_metrics.csv` | 2.6 / 3.1 (121 held-out donor-target rows) |
+| B3 mapping | `B3_null_b_noncognate_mapping.csv` | 2.6 (fixed Null-B mapping) |
+| B3 audit | `B3_legacy_fold_consistency_audit.csv` | 2.6 (legacy consistency) |
+| B3 manifest | `B3_input_manifest_sha256.csv` | 2.6 (input hashes) |
 | C1 | `C1_spatial_sign_flip_bh_qvalues.csv` | 3.6 (spatial) |
 | C2 | `C2_spatial_block_rho_bootstrap_ci.csv` | 3.6 (spatial) |
 | D | `D_gse245108_sample_design_matrix.csv` | 3.5 (technical variance) |
