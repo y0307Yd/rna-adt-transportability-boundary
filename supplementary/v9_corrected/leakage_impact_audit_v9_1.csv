@@ -1,0 +1,8 @@
+analysis,impact_status,recompute_status,reason
+"GSE335494 typed RNA re-extraction / 43-target bidirectional analysis","affected","rerun","feature_type=Gene Expression; corrected matrix SHA-256 documented in typed extraction manifest; 100 Null-B, 500 bootstrap, raw/CLR and alpha reruns"
+"Figure 2 and corrected 43-target classification","affected","rerun","uses corrected typed matrix; CD16 retained only as sensitivity-only non-direct mapping; CD11c is the only primary direction-specific numerical pass"
+"Frozen predictor: six external cohorts / Table 3 and Figure 6","potentially affected","not yet rerun","GSE335494 RNA-ADT pairing and predictor source role require a locked-model re-fit or explicit unaffected-input audit"
+"GSE314416 stress test","potentially affected","not yet rerun","one source model was trained on GSE335494; corrected source model must be regenerated before labels are interpreted"
+"51-target master boundary","potentially affected","not yet reconciled","17+12 counts are not propagated from the corrected 43-target classes; retained as provisional audit values only"
+"GSE334503 RNA extraction","not affected by identified GSE335494 lookup error","audited","separate verified input and no matching feature-type leakage finding"
+"11-target anchor / B2 donor LODO","not affected by identified GSE335494 lookup error","audited","independent anchor resources; source-internal positive-control evidence retained"

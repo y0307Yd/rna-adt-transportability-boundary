@@ -1,0 +1,15 @@
+{
+  "rows": 51,
+  "unique_targets": 51,
+  "gse314416_matched": 23,
+  "counts": {
+    "CONTEXT_DEPENDENT": 19,
+    "FAIL_measurement": 12,
+    "OTHER_EVIDENCE_only": 9,
+    "RANK_STABLE_cross_context": 7,
+    "CONDITIONAL_numerical": 2,
+    "FAIL_replicated_transport": 2
+  },
+  "rule": "measurement failure overrides; otherwise corrected bidirectional and corrected GSE314416 evidence jointly define replicated failure, rank stability, conditional numerical, context dependence, or other-evidence-only",
+  "sha256": "5904d9f7ed8a13b9f8c218b5c36700c34df6dbf2af1c4b74bc46983cd9e63c0d"
+}

@@ -1,0 +1,61 @@
+{
+  "release": "v9.1-corrected-local",
+  "status": "immutable_local_snapshot",
+  "files": [
+    {
+      "file": "manuscript_final_v9_1_corrected_submission_ready.docx",
+      "bytes": 15209321,
+      "sha256": "13d5fc1e319252eebbd63b3dab732fdde02af6b6cdc30e251eae6b072b90c865"
+    },
+    {
+      "file": "leakage_impact_audit_v9_1.csv",
+      "bytes": 1435,
+      "sha256": "20c5f69cb6113cb4cd56065c1be92c351782fd8ac4b4fe54aaed2d9d2bf50399"
+    },
+    {
+      "file": "leakage_impact_audit_v9_1_manifest.json",
+      "bytes": 2118,
+      "sha256": "d53fd9b945d956e2fcafddd9dc356c0379f992d5479c34f34b73fd095bcb2473"
+    },
+    {
+      "file": "GSE314416_CORRECTED_SOURCE_METRICS.csv",
+      "bytes": 225206,
+      "sha256": "66a4fab9d8d22f20fb0cdad50848babe4f3c389c505277a5b762b18a5eb4e6dd"
+    },
+    {
+      "file": "GSE314416_V9_CROSS_SOURCE_CLASSIFICATION.csv",
+      "bytes": 5826,
+      "sha256": "7f8742b677525a0092ad4ca382ca6b33667fd4d6ff0e309ddd516d88ec34e571"
+    },
+    {
+      "file": "GSE314416_V9_CLASSIFICATION_SUMMARY.json",
+      "bytes": 766,
+      "sha256": "819c38469ecdff0b7e45909f0eb7e11225ac8eec99f6678c6a0aed9eea4826cc"
+    },
+    {
+      "file": "A_51TARGET_MASTER_EVIDENCE_V10_RECONCILED.csv",
+      "bytes": 50166,
+      "sha256": "5904d9f7ed8a13b9f8c218b5c36700c34df6dbf2af1c4b74bc46983cd9e63c0d"
+    },
+    {
+      "file": "V10_MASTER_RECONCILIATION_SUMMARY.json",
+      "bytes": 598,
+      "sha256": "ed8880cc9c7ba6ef27be42713a95ce122f3ec5d5f5e38bd4deb018ef8f20f718"
+    },
+    {
+      "file": "sim_summary.csv",
+      "bytes": 2221,
+      "sha256": "eeed1fb915ac6b59f9f0d51529cafb926c3b94b3cf88d44917bf7f84a84e871c"
+    },
+    {
+      "file": "sim_summary.json",
+      "bytes": 6491,
+      "sha256": "c8f6cb060a1467f2108ae129e60bdb21c35782edb5aebcbd0f25ed1dae0838f4"
+    },
+    {
+      "file": "power_curve_donor.json",
+      "bytes": 1139,
+      "sha256": "bb9766ab52298c9e53a5a645e2abf4ef0d4d1e6505d0efc96bfa50b42fd5c9fb"
+    }
+  ]
+}
