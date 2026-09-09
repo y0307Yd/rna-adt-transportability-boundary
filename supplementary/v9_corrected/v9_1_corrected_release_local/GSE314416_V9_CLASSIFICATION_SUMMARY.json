@@ -1,0 +1,31 @@
+{
+  "thresholds_unchanged_from_v5": {
+    "spearman_min": 0.2,
+    "specificity_delta_min": 0.1,
+    "r2_min_exclusive": 0,
+    "calibration_slope": [
+      0.5,
+      2
+    ],
+    "sd_ratio": [
+      0.05,
+      20
+    ]
+  },
+  "counts": {
+    "weak_or_nontransportable": 23,
+    "rank_invariant_both_sources": 15,
+    "numerically_transportable_both_sources": 5
+  },
+  "primary_direct_counts": {
+    "weak_or_nontransportable": 20,
+    "rank_invariant_both_sources": 14,
+    "numerically_transportable_both_sources": 3
+  },
+  "sensitivity_counts": {
+    "weak_or_nontransportable": 3,
+    "numerically_transportable_both_sources": 2,
+    "rank_invariant_both_sources": 1
+  },
+  "status": "CORRECTED_SOURCE_RECLASSIFICATION_COMPLETE"
+}
