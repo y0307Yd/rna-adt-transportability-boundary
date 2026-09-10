@@ -1,0 +1,29 @@
+{
+  "seed": 20260909,
+  "null_replicates": 200,
+  "bootstrap_replicates": 500,
+  "gate": {
+    "spearman": ">=0.20",
+    "specificity_delta": ">=0.10",
+    "r2": ">0",
+    "calibration_slope": "0.5-2.0",
+    "sd_ratio": "0.05-20"
+  },
+  "null_summary": {
+    "NullA": {
+      "mean_false_pass_targets": 0.0,
+      "median": 0.0,
+      "max": 0,
+      "replicates_with_at_least_5": 0,
+      "probability_at_least_5": 0.0
+    },
+    "NullB": {
+      "mean_false_pass_targets": 4.73,
+      "median": 5.0,
+      "max": 5,
+      "replicates_with_at_least_5": 153,
+      "probability_at_least_5": 0.765
+    }
+  },
+  "typed_GSE335494": true
+}

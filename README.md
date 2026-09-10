@@ -5,7 +5,7 @@
 This repository contains the analysis code and machine-readable evidence tables that
 back the quantitative claims in the manuscript
 *"Cross-cohort transportability of RNA-to-protein prediction is target- and context-specific"*
-(current manuscript: `manuscript_final_v8i_submission_ready.docx`).
+(current manuscript: `manuscript_final_v9_1_FINAL_LOCKED_20260910.docx`).
 
 ## What this study is about
 
@@ -29,14 +29,14 @@ necessarily a model that measures protein across cohorts.** Transportability is 
 empirical property of the *target–context–measurement system*, not merely an algorithm
 property.
 
-## Three principal results
+## Principal results
 
 - **Within-source donor generalization is not cross-cohort transport.** The strict
   five-component gate was attainable in 4/22 source-internal donor-held-out
-  target-cohort settings, with 0/22 shuffled controls passing, but no target passed
+  target-cohort settings, with 0/22 shuffled controls passing; corrected external analyses showed no unconditional numerical transport
   the same strict numerical gate in the principal expanded external transfer.
 - **High rank correlation is not numerical interchangeability.** In the principal
-  43-target external analysis, 29 targets retained rank information without adequate
+  corrected 43-target boundary analysis separated replicated failures, measurement-layer failures, context-dependent targets, rank-stable targets, and a small conditional numerical subset
   numerical calibration, 3 were weakly context-dependent and 11 were non-specific or
   non-transportable under the strict gate.
 - **Technical repeatability does not guarantee transportability.** Of eight targets
